@@ -1,13 +1,18 @@
 import React from 'react'
 import { buttonProps } from '../(interfaces)/button'
-const button = (props : buttonProps) : any  => {
+import { JSX } from 'react'
+import Link from 'next/link'
+
+const Button = (props : buttonProps) : JSX.Element  => {
 return (
     <div>
-        <button className={props.className} onClick={props.onClick} >
-
-        </button>
+        <Link href={props.href ? props.href : '#'} passHref>
+            <button className={props.className} onClick={props.onClick} >
+            {props.children}
+            </button>
+        </Link>
     </div>
 )
 }
 
-export default button
+export default Button
