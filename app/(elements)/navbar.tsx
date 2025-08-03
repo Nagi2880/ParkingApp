@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../(elements)/button'
+import Button from '../(elements)/Button'
 const Navbar = () => {
     return (
             <nav className="navbar-container">
@@ -11,7 +11,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Button href="/about" className="nav-button">
-                            About
+                            About us
                         </Button>
                         <Button href="/parker" className="nav-button">
                             Be parker
