@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../(elements)/Button'
+import MainpageSectionOne from './MainpageSectionOne'
 
 function Mainpage() {
     return (
@@ -16,7 +17,7 @@ function Mainpage() {
             <div className='mainpage-right-content'>
                 
             </div>
-            
+            <MainpageSectionOne />
         </main>
     )
 }

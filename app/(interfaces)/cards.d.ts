@@ -4,4 +4,6 @@ export interface cards {
     className?: string;
     width?: number;
     height?: number;
+    title?: string;
+    description?: string;
 }
