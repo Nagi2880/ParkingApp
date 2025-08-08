@@ -5,5 +5,8 @@ export default interface Inputprops{
     placeholder?: string;
     value?: string;
     onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
-    className?: string;
+    className?: string; 
+    htmlFor: string;
+    content: string;
+    classNameContainer?: string;
 }
