@@ -4,7 +4,7 @@ import Logo from '@/app/(elements)/Logo'
 function page() {
     return (
         <div className='Login-page-container'>
-            <header>
+            <header className='Login-header-without-navbar'>
                 <Logo />
             </header>
             <Form />
