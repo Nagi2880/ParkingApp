@@ -7,6 +7,6 @@ export default interface Inputprops{
     onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
     className?: string; 
     htmlFor: string;
-    content: string;
+    content?: string;
     classNameContainer?: string;
 }
