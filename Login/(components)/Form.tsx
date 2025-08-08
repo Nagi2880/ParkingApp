@@ -1,11 +1,11 @@
 import React from 'react'
-import Input from '../../app/(elements)/Formfield'
+import Formfield from '../../app/(elements)/Formfield'
 function Form() {
     return (
     <div className='Login-forms-container'>
         <form className='Login-forms'>
-            <Input type="text" id="username" name="username" placeholder="Username" />
-            
+            <Formfield type="text" id="username" name="username" placeholder="Username" htmlFor='username' content='Username' />
+            <Formfield type="password" id="password" name="password" placeholder="Password" htmlFor='password' content='Password' />
         </form>
     </div>
     )
