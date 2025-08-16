@@ -1,0 +1,40 @@
+.LoginPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 20vh;
+}   
+.LoginHeader{
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
+    width: 100%;
+}
+.Login-Forms-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1
+}
+.LoginForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.placeholders{
+    width: 50vh;
+    height: 5vh;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+    border: 1px solid #d9d9d9;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    text-align: center;
+}
+.placeholders:focus{
+    border: 2px solid #0a0a0a;
+    outline: none;
+}
